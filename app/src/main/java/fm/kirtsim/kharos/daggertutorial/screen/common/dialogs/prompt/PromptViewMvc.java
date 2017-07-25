@@ -12,4 +12,12 @@ public interface PromptViewMvc extends ObservableViewMvc<PromptViewMvc.PromptVie
         void onPositiveButtonClicked();
         void onNegativeButtonClicked();
     }
+
+    public void setTitle(String title);
+
+    public void setMessage(String message);
+
+    public void setNegativeButtonCaption(String caption);
+
+    public void setPositiveButtonCaption(String caption);
 }
