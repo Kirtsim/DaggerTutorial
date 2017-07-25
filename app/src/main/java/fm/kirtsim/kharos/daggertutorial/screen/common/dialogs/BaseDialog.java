@@ -1,6 +1,7 @@
 package fm.kirtsim.kharos.daggertutorial.screen.common.dialogs;
 
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.annotation.UiThread;
 import android.support.v4.app.DialogFragment;
 
@@ -23,6 +24,7 @@ public abstract class BaseDialog extends DialogFragment {
         return null;
     }
 
+    @Nullable
     protected String getDialogId() {
         Bundle arguments = getArguments();
         if (arguments == null)

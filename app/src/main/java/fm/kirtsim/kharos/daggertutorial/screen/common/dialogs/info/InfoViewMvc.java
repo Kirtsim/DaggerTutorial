@@ -11,4 +11,10 @@ public interface InfoViewMvc extends ObservableViewMvc<InfoViewMvc.InfoViewMvcLi
     public interface InfoViewMvcListener {
         void onDismissClicked();
     }
+
+    public void setTitle(String title);
+
+    public void setMessage(String message);
+
+    public void setDismissButtonCaption(String caption);
 }

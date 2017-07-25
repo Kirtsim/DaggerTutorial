@@ -7,4 +7,8 @@ import fm.kirtsim.kharos.daggertutorial.screen.common.dialogs.BaseDialogEvent;
  */
 
 public class InfoDialogDismissedEvent extends BaseDialogEvent {
+
+    public InfoDialogDismissedEvent(String id) {
+        super(id);
+    }
 }

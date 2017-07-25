@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">DaggerTutorial</string>
     <string name="show_dialog_caption">Show dialog</string>
+    <string name="long_text">Dialog message very very very very very very very very very very very very long</string>
+    <string name="btn_caption_positive">Positive</string>
+    <string name="btn_caption_negative">Negative</string>
+    <string name="dialog_title">Dialog title</string>
 </resources>
