@@ -2,6 +2,7 @@ package fm.kirtsim.kharos.daggertutorial.dependencyinjection.controller;
 
 import fm.kirtsim.kharos.daggertutorial.screen.common.dialogs.info.InfoDialog;
 import fm.kirtsim.kharos.daggertutorial.screen.common.dialogs.prompt.PromptDialog;
+import fm.kirtsim.kharos.daggertutorial.screen.example.activities.ExampleActivity;
 
 /**
  * Created by kharos on 23/07/2017
@@ -9,7 +10,7 @@ import fm.kirtsim.kharos.daggertutorial.screen.common.dialogs.prompt.PromptDialo
 
 public interface ControllerComponent {
 
-
+    public void inject(ExampleActivity exampleActivity);
 
     public void inject(InfoDialog infoDialog);
 
