@@ -27,7 +27,6 @@ public class PromptViewMvcImpl extends BaseViewMvc<PromptViewMvc.PromptViewMvcLi
         setRootView(inflater.inflate(R.layout.layout_info_prompt_dialog, container, false));
         initViews();
         setButtonListeners();
-
     }
 
     private void initViews() {

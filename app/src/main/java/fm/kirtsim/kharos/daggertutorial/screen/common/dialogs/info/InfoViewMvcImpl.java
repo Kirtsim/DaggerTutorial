@@ -27,7 +27,7 @@ public class InfoViewMvcImpl extends BaseViewMvc<InfoViewMvc.InfoViewMvcListener
         dialogTitle = findViewById(R.id.txt_title);
         dialogMessage = findViewById(R.id.txt_message);
         confirmButton = findViewById(R.id.btn_positive);
-
+        setConfirmButtonClickListener();
         findViewById(R.id.btn_negative).setVisibility(View.GONE);
     }
 

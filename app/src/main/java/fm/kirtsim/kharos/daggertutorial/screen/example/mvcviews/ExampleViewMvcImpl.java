@@ -1,6 +1,5 @@
 package fm.kirtsim.kharos.daggertutorial.screen.example.mvcviews;
 
-import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;

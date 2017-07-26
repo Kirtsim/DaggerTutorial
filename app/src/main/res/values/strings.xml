@@ -4,5 +4,10 @@
     <string name="long_text">Dialog message very very very very very very very very very very very very long</string>
     <string name="btn_caption_positive">Positive</string>
     <string name="btn_caption_negative">Negative</string>
-    <string name="dialog_title">Dialog title</string>
+    <string name="dialog_title_xml">Dialog title</string>
+
+    <string name="dialog_title">Dialog Title</string>
+    <string name="dialog_message">Dialog message</string>
+    <string name="dialog_button_caption">OK</string>
+
 </resources>

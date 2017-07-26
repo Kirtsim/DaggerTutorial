@@ -25,7 +25,7 @@ public class DialogsFactory {
     public PromptDialog newPromptDialog(String title, String message,
                                         String positiveButtonCaption,
                                         String negativeButtonCaption) {
-        Bundle args = new Bundle(3);
+        Bundle args = new Bundle(4);
         args.putString(PromptDialog.ARGUMENT_TITLE, title);
         args.putString(PromptDialog.ARGUMENT_MESSAGE, message);
         args.putString(PromptDialog.ARGUMENT_POSITIVE_BTN_CAPTION, positiveButtonCaption);

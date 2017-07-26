@@ -1,5 +1,6 @@
 package fm.kirtsim.kharos.daggertutorial.screen.common.dialogs.info;
 
+import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -36,7 +37,9 @@ public class InfoDialog extends BaseDialog implements InfoViewMvc.InfoViewMvcLis
 
         initViewMvc();
 
-        return super.onCreateDialog(savedInstanceState);
+        AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(getContext());
+        dialogBuilder.setView(infoView.getRootView());
+        return dialogBuilder.create();
     }
 
     private void initViewMvc() {

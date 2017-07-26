@@ -7,7 +7,7 @@
 
     <TextView
         android:id="@+id/txt_title"
-        android:text="@string/dialog_title"
+        android:text="@string/dialog_title_xml"
         android:textStyle="bold|italic"
         android:textAppearance="?android:textAppearanceLarge"
         android:layout_width="wrap_content"

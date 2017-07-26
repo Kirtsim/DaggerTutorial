@@ -59,7 +59,7 @@ public class DialogsManager {
         }
     }
 
-    public void showRetainedDialogWithId(DialogFragment dialog, String id) {
+    public void showRetainedDialogWithId(DialogFragment dialog, @Nullable String id) {
         dismissCurrentlyShownDialog();
         dialog.setRetainInstance(true);
         setId(dialog, id);
